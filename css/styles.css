@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stili Tag */
+
+h5 {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Stili ID */
+
+/* Stili Classi */
+
+.contenitore {
+    width: 30%;
+    margin: 30px;
+}
+
+.contenitoreImg {
+    position: relative;
+}
+
+.contenitoreImg img{
+    width: 100%;
+}
+
+.immagineSecondaria{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.contenitoreImg:hover .immagineSecondaria {
+    display: block;
+}
+
+.prezzoScontato {
+    font-weight: 900;
+    color: red;
+}
+
+.prezzoMRP {
+    text-decoration: line-through;
+}
+
+
